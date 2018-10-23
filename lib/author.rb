@@ -5,4 +5,10 @@ class Author
     @name = name
     @posts = []
   end
+
+  def add_post(post)
+    @posts << post
+    post.add_author(self)
+  end
 end
+  
