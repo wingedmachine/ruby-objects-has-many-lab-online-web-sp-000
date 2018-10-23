@@ -11,5 +11,9 @@ class Song
   def add_artist(artist)
     @artist = artist
   end
+
+  def self.all
+    @@all
+  end
 end
   
