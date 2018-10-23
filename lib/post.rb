@@ -11,4 +11,8 @@ class Post
   def add_author(author)
     @author = author
   end
+
+  def self.all
+    @@all
+  end
 end
